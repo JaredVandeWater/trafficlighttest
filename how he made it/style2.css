@@ -1,0 +1,47 @@
+.pole{
+    background-color: black;
+    width: 5rem;
+    height: 9rem;
+    margin: auto;
+}
+.box{
+    background-color: black;
+    width: 15rem;
+    height: 35rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.light{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin: auto;
+
+    background-size: cover;
+
+    background-image: url(paste something here that is a png);
+    
+
+}
+
+.red{
+
+    background-color: darkred;
+}
+
+.red:hover{}
+    background-color: red;
+    box-shadow: 0  0 1.5rem 1rem pink;
+    cursor: pointer;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
