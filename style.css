@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    background-color: rgb(82, 82, 82);
+    background-image: repeating-linear-gradient(45deg, rgba(255,255,255, 0.25), rgba(255,255,255, 0.25) 1px, transparent 1px, transparent 6px);
+    background-size: 8px 8px;
+};
+
+
+
+
+.circle{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color:rgba(0, 0, 0, 0)
+    margin-bottom: 10px;
+
+
+}
+
+.rect{
+    margin: auto;
+    height: 300px;
+    width: 100px;
+    background-color: rgb(29, 29, 29);
+
+}
+
+.rect2{
+    margin: auto;
+    height: 800px;
+    width: 300px;
+    background-color: rgb(56, 56, 56);
+    border-radius: 5%;
+}
+
+.circle{
+    background-image:repeating-linear-gradient(-45deg, rgba(49, 49, 49, 0.74), rgba(29, 29, 29, 0.664) 1px, transparent 1px, transparent 6px);
+    background-size: 4px 4px;
+    margin: auto;
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    border-radius: 50%;
+    
+
+}
+
+.circle2{
+    background-image:repeating-linear-gradient(-45deg, rgba(58, 58, 58, 0.589), rgba(59, 59, 59, 0.664) 1px, transparent 1px, transparent 6px);
+    background-size: 4px 4px;
+
+    margin: auto;
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+    border-radius: 50%;
+
+}
+
+.circle3{
+    background-image:repeating-linear-gradient(-45deg, rgba(255,255,255, 0.25), rgba(255,255,255, 0.25) 1px, transparent 1px, transparent 6px);
+    background-size: 4px 4px;
+    margin: auto;
+    height: 250px;
+    width: 250px;
+    background-color: green;
+    border-radius: 50%;
+
+}
+
+.allcircles{
+    position:relative;
+    top: -760px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
